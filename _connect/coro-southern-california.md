@@ -16,12 +16,7 @@ organization_twitter: '@CoroSoCal'
 organization_facebook: 'https://www.facebook.com/corosoutherncalifornia'
 organization_instagram: corosocal
 link_donate: 'https://www.corola.org/donate-today/'
-link_volunteer: >-
-  Coro offers a variety of volunteer opportunities throughout the year,
-  including serving as a placement host, application readers for our Fellows
-  Program, and interview subjects, to name a few. To find meaningful ways to get
-  involved, please visit: https://www.corola.org/getinvolved/ or contact Monette
-  Borigsay at monette@corola.org.
+link_volunteer: https://www.corola.org/getinvolved/
 organization_activity: >-
   Coro Southern California uses a sophisticated blend of experiential learning
   and seminar-based training to give emerging leaders the skills and frameworks
