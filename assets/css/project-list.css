@@ -440,7 +440,8 @@
   .proposals a {
     display: block;
   }
-  @supports (object-fit: cover) {
+/*   @supports (object-fit: cover) { */
+  @supports (false) {
     .proposals .image {
       padding-top: 79.25925926%; /* 428px / 540px */
       display: block;
