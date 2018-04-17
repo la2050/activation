@@ -118,6 +118,14 @@ https://stackoverflow.com/questions/42475187/jekyll-assign-concat-in-a-loop
 
 <ul class="proposals" id="project-list">
 
+  <li class="proposals-category-tall">
+    <div><p><span>{{ page.category }}</span></p></div>
+  </li>
+
+<!--   <li class="proposals-category-short">
+    <div><p><span>{{ page.category }}</span></p></div>
+  </li> -->
+
   {% assign data_list = data_list | sort: "order" %}
 
   {% for data in data_list %}
