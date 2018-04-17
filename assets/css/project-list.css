@@ -444,6 +444,7 @@
   @supports (object-fit: cover) {
     .proposals .image {
       padding-top: 79.25925926%; /* 428px / 540px */
+      padding-top: 100%;
       display: block;
       position: relative;
       background: rgba(0, 0, 0, 0.1);
@@ -456,6 +457,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-fit: contain;
       /*  
       filter: grayscale(100%);
       transition: filter 0.2s;
