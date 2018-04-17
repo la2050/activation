@@ -66,7 +66,10 @@
 {% if page.category %}
 
 {% if page.finalists %}
+<div style="margin-top: 9em;"></div>
+{% comment %}
 <p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">5</strong> finalists in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
+{% endcomment %}
 {% else %}
 <p class="count" style="margin-top: 3em; margin-left: auto; margin-right: auto; margin-bottom: 4.5em;">There are <strong style="color: var(--primary-color, inherit)">{{ data_list.size }}</strong> entries in the <strong style="color: var(--primary-color, inherit); text-transform: uppercase;">{{ page.category }}</strong> category.</p>
 {% endif %}
