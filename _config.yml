@@ -25,11 +25,11 @@ vote_url: /vote/form/
 
 # Entries shown on the website: 
 # April 9 
-phase: 4
+# phase: 4
 
 # 25 finalists announced: 
 # May 21
-# phase: 5
+phase: 5
 
 # Votes being accepted: 
 # June 19

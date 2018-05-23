@@ -28,7 +28,7 @@ layout: null
   </url>
 
 {% comment %}
-######### Projects #########
+######### Entries #########
 {% endcomment %}
   <url>
     <loc>https://activation.la2050.org/entries/</loc>
@@ -48,6 +48,32 @@ layout: null
   <url>
     <loc>https://activation.la2050.org/live/</loc>
   </url>
+
+{% comment %}
+######### Finalists #########
+{% endcomment %}
+  <url>
+    <loc>https://activation.la2050.org/finalists/</loc>
+  </url>
+  <url>
+    <loc>https://activation.la2050.org/learn/finalists/</loc>
+  </url>
+  <url>
+    <loc>https://activation.la2050.org/create/finalists/</loc>
+  </url>
+  <url>
+    <loc>https://activation.la2050.org/play/finalists/</loc>
+  </url>
+  <url>
+    <loc>https://activation.la2050.org/connect/finalists/</loc>
+  </url>
+  <url>
+    <loc>https://activation.la2050.org/live/finalists/</loc>
+  </url>
+
+{% comment %}
+######### Projects #########
+{% endcomment %}
 
 {% assign data_collection = site.collections | where: "label", "learn" | first %}
 {% assign data_list = data_collection.docs %}

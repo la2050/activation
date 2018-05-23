@@ -74,7 +74,7 @@ The finalists will represent a diverse set of issues, engagement strategies, and
 * Members of the public may vote once per goal category for a total of five votes.
 * Voters must be at least 14 years old and a US resident.
 * Voters must log in to participate in the My LA2050 Activation Challenge.
-* Voters can use social sign-in via Facebook or Google or can use an email account to register. Voters using an email account will be sent a link to click in order to validate their address.
+* Voters can use social sign-in via Facebook or can use an email account to register. Voters using an email account will be sent a link to click in order to validate their address.
 
 ### Questions
 
