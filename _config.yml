@@ -24,7 +24,7 @@ vote_url: /vote/form/
 
 # Entry period ended: 
 # March 31
-# phase: 3
+phase: 3
 
 # Entries shown on the website: 
 # April 9 
@@ -44,7 +44,7 @@ vote_url: /vote/form/
 
 # Winners announced: 
 # July 9 
-phase: 8
+# phase: 8
 
 finalists:
 
