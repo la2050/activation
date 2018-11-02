@@ -32,7 +32,7 @@ vote_url: /vote/form/
 
 # 25 finalists announced: 
 # May 21
-# phase: 5
+phase: 5
 
 # Votes being accepted: 
 # June 19
@@ -44,7 +44,7 @@ vote_url: /vote/form/
 
 # Winners announced: 
 # July 9 
-phase: 8
+# phase: 8
 
 finalists:
 
