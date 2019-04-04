@@ -11,13 +11,13 @@
 
   random = Math.floor(Math.random() * categories.length) + 0;
 
-  links = document.querySelectorAll('a[href="/entries/"]');
+  links = document.querySelectorAll('a[href*="/entries/"]');
   links.forEach(function(link) {
-    link.setAttribute('href', '/' + categories[random] + '/');
+    link.setAttribute('href', link.getAttribute('href').replace('/entries/', '/' + categories[random] + '/'));
   })
 
-  links = document.querySelectorAll('a[href="/finalists/"]');
+  links = document.querySelectorAll('a[href*="/finalists/"]');
   links.forEach(function(link) {
-    link.setAttribute('href', '/' + categories[random] + '/finalists/');
+    link.setAttribute('href', link.getAttribute('href').replace('/finalists/', '/' + categories[random] + '/'));
   })
 })();
