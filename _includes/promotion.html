@@ -212,10 +212,25 @@
 
                 // Change the link to point to that entry’s page
                 link.setAttribute('href', 'https://challenge.la2050.org' + entry.url + '?referrer=activation.la2050.org');
+                window.location.href = link.getAttribute("href");
               }
             });
           }
           {% endif %}
+
+          if (window.location.pathname == "/" ||
+              window.location.pathname == "/about/" ||
+              window.location.pathname == "/submit/" ||
+              window.location.pathname == "/vote/" ||
+              window.location.pathname == "/timeline/" ||
+              window.location.pathname == "/faqs/" ||
+              window.location.pathname == "/learn/" ||
+              window.location.pathname == "/create/" ||
+              window.location.pathname == "/play/" ||
+              window.location.pathname == "/connect/" ||
+              window.location.pathname == "/live/") {
+            window.location.href = 'https://challenge.la2050.org' + window.location.pathname;
+          }
 
         })
 
