@@ -16,7 +16,7 @@
   "devDependencies": {
     "chromedriver": "^2.33.2",
     "concurrent-transform": "^1.0.0",
-    "csv-parse": "^2.1.0",
+    "csv-parse": "^4.8.5",
     "csv-stringify": "^3.1.1",
     "cypress": "^2.1.0",
     "gulp": "^3.9.1",
